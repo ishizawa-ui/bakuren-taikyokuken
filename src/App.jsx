@@ -144,7 +144,6 @@ function BattleStage({ enemyHp, enemyConfig, impact, effectText, attackScene }) 
         <div className="enemy-health" aria-label={`敵のHP ${enemyHp}`}>
           <div className="enemy-health-fill" style={{ width: `${hpPercent}%` }} />
         </div>
-        <strong>{enemyHp.toLocaleString("ja-JP")} / {enemyConfig.maxHp.toLocaleString("ja-JP")}</strong>
       </div>
 
       <div className="speech-bubble">ゆるく構えて、<br />ド派手にキメる！</div>
